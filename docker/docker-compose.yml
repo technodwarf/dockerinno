@@ -8,6 +8,7 @@ services:
     working_dir: /var/www/
     volumes:
       - ../src:/var/www
+    user: www-data
 
   nginx:
     build:
